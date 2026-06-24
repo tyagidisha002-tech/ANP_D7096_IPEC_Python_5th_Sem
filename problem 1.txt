@@ -1,0 +1,12 @@
+﻿'''Problem Statement'''
+# Write a python program to calculate the total monthly salary of an employee by adding the fixed salary and incentive amount.
+# Coding Section.
+basicsalary=float(input("enter the basic salary:"))
+Incentive=float(input("Enter the incentive amount:"))
+'''Output'''
+print("total monthly salary",basicsalary+Incentive)
+INPUT:
+enter the basic salary:56474.567
+Enter the incentive amount:65748.0
+OUTPUT:
+total monthly salary 122222.56700000001
