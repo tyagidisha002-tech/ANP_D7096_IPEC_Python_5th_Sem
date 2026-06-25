@@ -1,0 +1,14 @@
+'''Problem Statement : Bank Account Balance'''
+# Write a python program to calculate the remaining balance after withdrawal.
+#Coding Section.
+Current_balance = float(input("Enter the current balance: "))
+Withdrawal_Amount = float(input("Enter the Withdrawal: "))
+'''Output : Remaining balance'''
+print("Remaining Balance",Current_balance-Withdrawal_Amount)
+
+Input:
+Enter the current balance: 6570000.00
+Enter the Withdrawal: 7695.00
+
+Output:
+Remaining Balance 6562305.0

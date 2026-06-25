@@ -1,0 +1,15 @@
+'''Problem Statement :Grocery Bill'''
+# write a python program to calculate the total cost of rice packets purchased.
+# Coding Section.
+Price=float(input("enter the price per rice packet "))
+Number_of_packet =int(input("enter the number of rice "))
+'''Output : Total Bill Amount'''
+
+print("Total Bill Amount" ,Price*Number_of_packet)
+
+INPUT:
+enter the price per rice packet: 456.00
+enter the number of rice: 5
+
+OUTPUT:
+Total Bill Amount 2280.0

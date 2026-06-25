@@ -1,0 +1,13 @@
+'''Problem statement :fuel consumption tracker'''
+# Write a python program to find the average mileage of car.
+# Coding section.
+Total_Distance= float(input("Enter the Total distance (km)"))
+Fuel_Consumed= float(input("Enter the Fuel consumed(liters)"))
+'''Output : Mileage'''
+print("Mileage(km/l)",Total_Distance/Fuel_Consumed)
+
+INPUT:
+Enter the Total distance (km):456
+Enter the Fuel consumed(liters):6
+OUTPUT:
+Mileage(km/l): 6.8059701
